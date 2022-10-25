@@ -37,7 +37,8 @@
 }
 
 .recommendations{
-
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .recommendations__card-container{
@@ -47,20 +48,27 @@
 
 .recommendations__header{
     color:#335576;
+    font-size: 22px;
+    margin-top:0;
+    margin-left: 90px;
+    margin-bottom: 28px;
 }
 
 .recommendations__card{
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px rgba(0,0,0,.2);
-    background-size:contain;
-    width:200px;
-    height:300px;
+    background-size:cover;
+    width:246px;
+    height:370px;
     border-radius: 5px;
-    
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .recommendations__card--hawaii{
     background-image: url("../assets/images/hawaii.jpg");
+    margin-left:182px;
 }
 
 .recommendations__card--iceland{
@@ -69,4 +77,22 @@
 
 .recommendations__card--greece{
     background-image: url("../assets/images/greece.jpg");
+    margin-right: 182px;
+}
+
+
+.card__title{
+    margin-right: 20px;
+    margin-bottom:15px;
+    font-size: 22px;
+    color: white;
+}
+
+.card__title--iceland{
+    margin-right: 12px;
+}
+
+.footer{
+    background-color: #FEFAF5;
+
 }
