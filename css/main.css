@@ -54,10 +54,15 @@
     margin-bottom: 28px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .recommendations__card{
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px rgba(0,0,0,.2);
     background-size:cover;
+    background-repeat: no-repeat;
     width:246px;
     height:370px;
     border-radius: 5px;
@@ -90,9 +95,4 @@
 
 .card__title--iceland{
     margin-right: 12px;
-}
-
-.footer{
-    background-color: #FEFAF5;
-
 }

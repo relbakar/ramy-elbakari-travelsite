@@ -16,7 +16,9 @@
   <body>
     <header>
       <nav class="navigation">
-        <h3 class="navigation__logo">Travel Site</h3>
+        <a href="./index.html">
+          <h3 class="navigation__logo">Travel Site</h3></a
+        >
         <ul class="navigation__list">
           <li>
             <a
@@ -36,68 +38,77 @@
           </li>
         </ul>
       </nav>
-
-      <section class="hero">
-        <div class="hero__container">
-          <h1 class="hero__slogan">
-            Travelling Comes With Endless Discoveries
-          </h1>
-          <p class="hero__text">
-            Don't let your dreams be just dreams. Experience the world by
-            booking a vacation with us now.
-          </p>
-          <button class="hero__button">Get Started</button>
-        </div>
-        <img class="hero__image" src="./assets/images/hero.png" />
-      </section>
     </header>
+
+    <section class="hero">
+      <div class="hero__container">
+        <h1 class="hero__slogan">Travelling Comes With Endless Discoveries</h1>
+        <p class="hero__text">
+          Don't let your dreams be just dreams. Experience the world by booking
+          a vacation with us now.
+        </p>
+        <button class="hero__button">Get Started</button>
+      </div>
+      <img class="hero__image" src="./assets/images/hero.png" />
+    </section>
 
     <section class="recommendations">
       <h3 class="recommendations__header">Recommendations</h3>
       <div class="recommendations__card-container">
-        <div class="recommendations__card recommendations__card--hawaii">
-          <h3 class="card__title">Hawaii</h3>
-        </div>
-        <div class="recommendations__card recommendations__card--iceland">
-          <h3 class="card__title card__title--iceland">Iceland</h3>
-        </div>
-        <div class="recommendations__card recommendations__card--greece">
-          <h3 class="card__title">Greece</h3>
-        </div>
+        <a href="./pages/hawaii.html">
+          <div class="recommendations__card recommendations__card--hawaii">
+            <h3 class="card__title">Hawaii</h3>
+          </div>
+        </a>
+        <a href="./pages/iceland.html">
+          <div class="recommendations__card recommendations__card--iceland">
+            <h3 class="card__title card__title--iceland">Iceland</h3>
+          </div></a
+        >
+        <a href="./pages/greece.html">
+          <div class="recommendations__card recommendations__card--greece">
+            <h3 class="card__title">Greece</h3>
+          </div>
+        </a>
       </div>
     </section>
 
     <footer class="footer">
-      <div>
-        <h3>Contact</h3>
+      <div class="contact">
+        <h3 class="footer__titles">Contact</h3>
         <div>
-          <p>EMAIL</p>
-          <p>info@travelsite.com</p>
+          <p class="footer__subtitles">EMAIL</p>
+          <p class="footer__text">info@travelsite.com</p>
         </div>
       </div>
 
-      <div>
-        <h3>Hours</h3>
-        <div>
-          <p>MONDAY - FRIDAY</p>
-          <p>9:00 AM - 5:00 PM</p>
-        </div>
-        <div>
-          <p>SATURDAY</p>
-          <p>10:00 AM - 4:00 PM</p>
-        </div>
-        <div>
-          <p>SUNDAY</p>
-          <p>Closed</p>
+      <div class="hours">
+        <h3 class="footer__titles">Hours</h3>
+        <div class="schedule-container">
+          <div>
+            <p class="footer__subtitles">MONDAY - FRIDAY</p>
+            <p class="footer__text">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer__hours--sat">
+            <p class="footer__subtitles">SATURDAY</p>
+            <p class="footer__text">10:00 AM - 4:00 PM</p>
+          </div>
+          <div>
+            <p class="footer__subtitles">SUNDAY</p>
+            <p class="footer__text">Closed</p>
+          </div>
         </div>
       </div>
 
-      <div>
-        <h3>Social</h3>
-        <div>
-          <img src="./assets/images/icon-instagram.png" />
-          <img src="./assets/images/icon-facebook.png" />
-          <img src="./assets/images/icon-twitter.png" />
+      <div class="social">
+        <h3 class="footer__titles">Social</h3>
+        <div class="icon-container">
+          <img class="footer__icon" src="./assets/images/icon-instagram.png" />
+          <img
+            class="footer__icon footer__icon--facebook"
+            src="./assets/images/icon-facebook.png"
+          />
+          <img class="footer__icon" src="./assets/images/icon-twitter.png" />
         </div>
       </div>
     </footer>

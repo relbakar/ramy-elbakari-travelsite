@@ -31,3 +31,64 @@ body{
 .nav-list__items--active{
     border-bottom: solid #DB7A4E 3px;
 }
+
+.footer{
+    background-color: #FEFAF5;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__titles{
+    color:#335576;
+    font-size: 22px;
+ 
+}
+
+.footer__subtitles{
+    color:#DB7A4E;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 9px;
+}
+
+.footer__text{
+    color:#335576;
+    font-size: 14px;
+    margin-top: 8px;;
+}
+
+.schedule-container{
+    display:flex;
+ 
+}
+
+.contact{
+    margin-left: 130px;
+}
+
+.footer__hours--sat{
+    margin: auto 29px;
+}
+
+.social{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 140px;
+}
+
+.icon-container{
+    margin-bottom: 14px;
+}
+
+.footer__icon{
+    width:24px;
+    height:24px;
+}
+
+.footer__icon--facebook{
+    width:12px;
+    height:24px;
+    margin: 0 23px;
+}
