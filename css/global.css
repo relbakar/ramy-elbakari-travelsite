@@ -32,6 +32,10 @@ body{
     border-bottom: solid #DB7A4E 3px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .footer{
     background-color: #FEFAF5;
     padding: 30px 0;
