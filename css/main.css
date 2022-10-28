@@ -43,7 +43,9 @@
 
 .recommendations__card-container{
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-between;
+    width:830px;
+    margin: 0 auto;
 }
 
 .recommendations__header{
@@ -69,7 +71,6 @@
 
 .recommendations__card--hawaii{
     background-image: url("../assets/images/hawaii.jpg");
-    margin-left:182px;
 }
 
 .recommendations__card--iceland{
@@ -78,9 +79,7 @@
 
 .recommendations__card--greece{
     background-image: url("../assets/images/greece.jpg");
-    margin-right: 182px;
 }
-
 
 .card__title{
     margin-right: 20px;

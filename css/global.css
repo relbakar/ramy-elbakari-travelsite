@@ -8,7 +8,11 @@ body{
     display: flex;
     justify-content:space-between;
     background-color: #FFFFFF;
+
+    position: fixed;
+    width:1280px;
 }
+
 
 .navigation__logo{
     color:#335576;
