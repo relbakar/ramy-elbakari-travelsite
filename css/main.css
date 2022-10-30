@@ -64,9 +64,7 @@
     width:246px;
     height:370px;
     border-radius: 5px;
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    position: relative;
 }
 
 .recommendations__card--hawaii{
@@ -82,12 +80,14 @@
 }
 
 .card__title{
-    margin-right: 20px;
-    margin-bottom:15px;
     font-size: 22px;
     color: white;
+    position:absolute;
+    bottom: 15px;
+    right: 20px;
+    margin:0;
 }
 
 .card__title--iceland{
-    margin-right: 12px;
+    right:12px;
 }
